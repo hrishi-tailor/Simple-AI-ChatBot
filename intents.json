@@ -1,0 +1,169 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning",
+                "good evening",
+                "what's up",
+                "how's it going",
+                "how do you do"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! I'm here to help.",
+                "Hey! What can I do for you?",
+                "Good to see you! How can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "take care",
+                "catch you later"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "Take care! See you soon!",
+                "Bye for now! Let me know if you need anything else."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you",
+                "thanks",
+                "much appreciated",
+                "thanks a lot",
+                "thanks so much",
+                "thank you very much"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem, glad I could help!",
+                "Anytime! Let me know if there's anything else you need."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "can you help me",
+                "i need help",
+                "help me",
+                "i need assistance",
+                "assist me"
+            ],
+            "responses": [
+                "Of course! How can I assist you?",
+                "Sure, what do you need help with?",
+                "I'm here to help! Please tell me more."
+            ]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "how are you",
+                "how's it going",
+                "how do you feel",
+                "what's up",
+                "how are you doing"
+            ],
+            "responses": [
+                "I'm doing well, thank you! How about you?",
+                "I'm great, thanks for asking! How can I assist you?",
+                "Doing fantastic! How about yourself?"
+            ]
+        },
+        {
+            "tag": "sad",
+            "patterns": [
+                "i am sad",
+                "i feel bad",
+                "i am unhappy",
+                "i am upset",
+                "i feel down"
+            ],
+            "responses": [
+                "Oh no! I'm here for you. What happened?",
+                "I'm sorry to hear that. Do you want to talk about it?",
+                "That sounds tough. I'm here to listen."
+            ]
+        },
+        {
+            "tag": "loss",
+            "patterns": [
+                "my pet died",
+                "i lost my dog",
+                "my dog passed away",
+                "i lost my cat",
+                "my pet passed away"
+            ],
+            "responses": [
+                "I'm so sorry to hear that. Losing a pet is truly heartbreaking.",
+                "I can't imagine how hard that must be. I'm here if you need to talk.",
+                "My deepest condolences. Pets are family, and it's okay to feel this way."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "who are you",
+                "do you have a name",
+                "what should I call you"
+            ],
+            "responses": [
+                "My name is ChatBot! I'm here to help you.",
+                "You can call me ChatBot. How can I assist you today?",
+                "I'm ChatBot, your friendly assistant."
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": [
+                "I'm sorry, I still don't understand. Can you rephrase?",
+                "Hmm, I'm not sure how to help with that.",
+                "Could you try explaining that another way?"
+            ]
+        },
+        {
+            "patterns": [
+                "Who is the greatest basketball player of all time?"
+            ],
+            "responses": [
+                "LeBron \"The GOAT\" James"
+            ]
+        },
+        {
+            "patterns": [
+                "LeBron or Michael Jordan"
+            ],
+            "responses": [
+                "LeBron obviously"
+            ]
+        },
+        {
+            "patterns": [
+                "is Michael Jordan better?"
+            ],
+            "responses": [
+                "Nah, LeBron is way better. The numbers speak for themselves!"
+            ]
+        },
+        {
+            "patterns": [
+                "Do you like LeBron James?"
+            ],
+            "responses": [
+                "Yes, he is literally the GREATEST OF ALL TIME!"
+            ]
+        }
+    ]
+}
